@@ -1,15 +1,15 @@
 package com.gordonwong.materialsheetfab.sample.models;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Calendar;
-
 import android.content.Context;
 import android.support.annotation.DrawableRes;
 import android.text.TextUtils;
 import android.text.format.DateFormat;
 
 import com.gordonwong.materialsheetfab.sample.R;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Calendar;
 
 /**
  * Created by Gordon Wong on 7/18/2015.

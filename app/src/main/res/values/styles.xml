@@ -137,4 +137,8 @@
         <item name="android:textAllCaps">true</item>
     </style>
 
+    <style name="Theme.MaterialSheetFab.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MaterialSheetFab.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>
