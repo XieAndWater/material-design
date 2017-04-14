@@ -78,7 +78,7 @@
                         style="@style/TextAppearance.MaterialSheetFab.Sheet.Item"
                         android:drawableLeft="@drawable/ic_mic_grey600_24dp"
                         android:drawableStart="@drawable/ic_mic_grey600_24dp"
-                        android:text="@string/recording" />
+                        android:text="@string/bluetooth" />
 
                     <!-- Reminder -->
                     <TextView

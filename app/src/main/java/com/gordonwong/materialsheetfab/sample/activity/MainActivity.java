@@ -1,5 +1,6 @@
 package com.gordonwong.materialsheetfab.sample.activity;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -138,7 +139,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 		});
 
 		// Set material sheet item click listeners
-		findViewById(R.id.fab_sheet_item_recording).setOnClickListener(this);
+		findViewById(R.id.fab_sheet_item_recording).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent=new Intent(MainActivity.this,BlueToothActivity.class);
+				startActivity(intent);
+			}
+		});
 		findViewById(R.id.fab_sheet_item_reminder).setOnClickListener(this);
 		findViewById(R.id.fab_sheet_item_photo).setOnClickListener(this);
 		findViewById(R.id.fab_sheet_item_note).setOnClickListener(this);
